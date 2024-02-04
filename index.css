@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+nav{
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+nav span{
+    margin-left: 10px;
+    cursor: pointer;
+}
+nav span:first-child {
+    border-bottom: 2px solid black;
+}
+.image{
+    float: right;
+    margin: 15px;
+}
+.content{
+    padding: 20px;
+}
+.content p{
+    margin-bottom: 20px;
+}
+body{
+    max-width:600px ;
+    width: 50%;
+    margin: auto;
+}
